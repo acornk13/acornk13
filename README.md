@@ -1,4 +1,11 @@
-## Hi there 👋
+<!-- "Hero" Header -->
+<div align="center">
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/welcome_banner.gif?raw=true" style="max-width: 100%;" alt="Welcome to acornk's profile" />
+  <br />
+  <br />
+  
+
+</div>
 
 <!-- Guestbook -->
 | Name | Date | Message |
