@@ -1,11 +1,11 @@
 name: Guestbook
 
-on: 
-  issue_comment: 
+on:
+  issue_comment:
     types: [created, edited, deleted]
 
 permissions:
-  contents: write # Grant write permissions
+  contents: write  # Grant write permission to the contents of the repository
 
 jobs:
   update_guestbook:
@@ -23,35 +23,35 @@ jobs:
           script: |
             const truncateString = (str, num) => str.length > num ? str.slice(0, num) + "..." : str;
 
-            const query = `query($owner:String!, $name:Stringg!, $issue_number:Int!) {
-              repository(owner:$owner, name:$name){
-                issue(number:$issue_number) {
-                  comments(first:5,orderBy:direction:DESC, field:UPDATED_AT}) {
-                    nodes {
-                      author {
-                        avatarUrl(size: 24)
-                        login
-                        url
-                      }
-                      bodyText
-                      updatedAt
+            const query = `query($owner:String!, $name:String!, $issue_number:Int!) {
+                repository(owner:$owner, name:$name){
+                    issue(number:$issue_number) {
+                        comments(first:5,orderBy:{direction:DESC, field:UPDATED_AT}) {
+                            nodes {
+                                author {
+                                    avatarUrl(size: 24)
+                                    login
+                                    url
+                                }
+                                bodyText
+                                updatedAt
+                            }
+                        }
                     }
-                  }
                 }
-              }
             }`;
             const variables = {
-              owner: context.repo.owner,
-              name: context.repo.repo,
-              issue_number: context.issue.number
+                owner: context.repo.owner,
+                name: context.repo.repo,
+                issue_number: context.issue.number
             }
 
             const result = await github.graphql(query, variables);
             const renderComments = (comments) => {
-              return comments.reduce((prev, curr) => {
-                let text = curr.bodyText.replace(/(\r\n|\r|\n)/g, "<br />").replace('|', '&#124;');
-                text = truncateString(text, 125);
-                return `${prev}| <a href="${curr.author.url}" style="display: flex; align-items: center;"><img width="30" src="${curr.author.avatarUrl}" alt="${curr.author.login}" style="border-radius: 50%; margin-right: 5px;"/> ${curr.author.login}</a> |${new Date(curr.updatedAt).toLocaleString()}|${text}|\n`;
+                return comments.reduce((prev, curr) => {
+                    let text = curr.bodyText.replace(/(\r\n|\r|\n)/g, "<br />").replace('|', '&#124;');
+                    text = truncateString(text, 125);
+                    return `${prev}| <a href="${curr.author.url}" style="display: flex; align-items: center;"><img width="30" src="${curr.author.avatarUrl}" alt="${curr.author.login}" style="border-radius: 50%; margin-right: 5px;"/> ${curr.author.login}</a> |${new Date(curr.updatedAt).toLocaleString()}|${text}|\n`;
                 }, "| Name | Date | Message |\n|---|---|---|\n");
             };
             const fileSystem = require('fs');
@@ -64,4 +64,3 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am ':sparkles: update guestbook' || exit 0  # Avoid error if no changes
           git push
-                
