@@ -1,7 +1,10 @@
 <!-- "Hero" Header -->
 <div align="center">
-  <img src="https://github.com/acornk13/acornk13/blob/main/images/welcome_banner.gif?raw=true" style="max-width: 100%;" alt="Welcome to acornk's profile" />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/silver-stars.png?raw=true" style="max-width: 20%;" alt="silver stars" />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/welcome-banner.png?raw=true" style="max-width: 60%;" alt="Welcome to acornk's profile" />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/silver-stars.png?raw=true" style="max-width: 20%;" alt="silver stars" />
   <br />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/spike-divider.png?raw=true" style="max-width: 20%;" alt="spike divider" />
   <br />
   
 
