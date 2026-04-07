@@ -3,7 +3,7 @@
   <img src="https://github.com/acornk13/acornk13/blob/main/images/welcome-banner.png?raw=true" style="max-width: 100%;" alt="Welcome to acornk's profile" />
   <br />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/silver-stars.png?raw=true" style="width: 18%;" alt="silver stars" align="left" />
-  <img src="https://github.com/acornk13/acornk13/blob/main/images/spike-divider.png?raw=true" style="max-width: 70%;" alt="spike divider" align="center" />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/spike-divider.png?raw=true" style="width: 70%;" alt="spike divider" align="center" />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/silver-stars.png?raw=true" style="width: 18%;" alt="silver stars" align="right" />
   <br /> <br /> <br /> <br /> <br /> 
   <img src="https://github.com/acornk13/acornk13/blob/main/images/star-cat.png?raw=true" style="width: 25%;" alt="cat wearing a star pillow" align="right" />
