@@ -8,7 +8,7 @@
   <br /> <br /> <br /> <br /> <br /> 
   <img src="https://github.com/acornk13/acornk13/blob/main/images/star-cat.png?raw=true" style="width: 25%;" alt="cat wearing a star pillow" align="right" />
    <br><br>
-  <img src="https://github.com/acornk13/acornk13/blob/main/images/speech-bubble.png?raw=true" style="max-width: 50%;" alt="speech bubble" align="left" />
+  
    ✶⋆.˚꩜ .ᐟ˙⋆✶ <br>
    Software engineering student, into WebDev, CyberSec, GameDev and low-poly modeling. <br>
    ✶⋆.˚꩜ .ᐟ˙⋆✶ <br>
@@ -27,12 +27,15 @@
   | <a href="https://github.com/Charly3012" style="display: flex; align-items: center;"><img width="30" src="https://avatars.githubusercontent.com/u/112887102?s=24&u=3f2515346b051f8cbd328dd5242f12bf0da2f879&v=4" alt="Charly3012" style="border-radius: 50%; margin-right: 5px;"/> Charly3012</a> |4/4/2026, 3:22:18 AM|`<iframe <br />src="https://larchy.xyz" <br />width="100%" <br />height="600px" <br />style="border: none; border-radius: 8px...|
   <!-- /Guestbook -->
   
-  <br /> <br /> <br /> <br />
+  <br /> <br /> 
   <img src="https://github.com/acornk13/acornk13/blob/main/images/emoticons.webp?raw=true" style="max-width: 100%;" alt="i support emoticons blinkie" />
-  <img src="https://github.com/acornk13/acornk13/blob/main/images/faces.webp?raw=true" style="max-width: 100%;" alt="faces blinkie" />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/two-cats.webp?raw=true" style="max-width: 100%;" alt="black cat white cat blinkie" />
+  <img src="https://github.com/acornk13/acornk13/blob/main/images/faces.webp?raw=true" style="max-width: 100%;" alt="faces blinkie" />
+  <br>
   <img src="https://github.com/acornk13/acornk13/blob/main/images/i-heart-cmd.webp?raw=true" style="max-width: 100%;" alt="i love cmd blinkie" />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/404-stamp.webp?raw=true" style="max-width: 100%;" alt="404 stamp" />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/css-stamp.png?raw=true" style="max-width: 100%;" alt="css stamp" />
   <img src="https://github.com/acornk13/acornk13/blob/main/images/nyan-cat.webp?raw=true" style="max-width: 100%;" alt="nyan cat stamp" />
+  <br>
+  Thanks for visiting -`✮´- last updated: 07/04/2026
 </div>
