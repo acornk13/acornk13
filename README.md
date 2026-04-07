@@ -7,12 +7,15 @@
   <img src="https://github.com/acornk13/acornk13/blob/main/images/silver-stars.png?raw=true" style="width: 20%;" alt="silver stars" align="right" />
   <br />
   <br />
+</div>
+<div align="center">
   <img src="https://github.com/acornk13/acornk13/blob/main/images/star-cat.png?raw=true" style="max-width: 50%;" alt="cat wearing a star pillow" align="right" />
   ## ✶⋆.˚꩜ .ᐟ˙⋆✶
   ### Software engineering student, into WebDev, CyberSec, GameDev and low-poly modeling.
   ## ✶⋆.˚꩜ .ᐟ˙⋆✶
   
 </div>
+<br />
 <br />
 <div align="center">
   # Sign my guestbook! ([𐔌՞. .՞𐦯 ᢉ𐭩.ᐟ🍮 add an entry](https://github.com/acornk13/acornk13/issues/1))
